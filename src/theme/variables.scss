@@ -4,18 +4,18 @@
 // For simplicity we just provide some common options as default, but you can override all Bootstrap Sass variables.
 
 // Header / Logo, either image (see below), text (shows CATALOG_TITLE) or none
-$logo: 'none'; 
+$logo: 'image';
 // If 'image' has been chosen above
-$logo-image: 'https://raw.githubusercontent.com/radiantearth/stac-site/master/images/logo/stac-030-long.png';
-$logo-image-height: 100px;
+$logo-image: 'https://www.eomap.com/wp-content/uploads/2020/11/EOMAP_detect-more_Logo_small.png';
+$logo-image-height: 60px;
 
 // Background and text default colors
-$body-bg: white;
+$body-bg: #F6F7FB;
 $body-color: black;
 
 // Colors
 $theme-colors: (
-  "primary":       #188191,
+  "primary":       #40ADD5,
   "secondary":     #6c757d,
   "success":       #28a745,
   "info":          #09B3AD,
